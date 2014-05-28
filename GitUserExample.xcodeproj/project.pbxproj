@@ -112,6 +112,7 @@
 		7495F1F31936362A0022E8CA /* GitUserExample */ = {
 			isa = PBXGroup;
 			children = (
+				7495F266193639BF0022E8CA /* iPad */,
 				7495F1FC1936362A0022E8CA /* AppDelegate.h */,
 				7495F1FD1936362A0022E8CA /* AppDelegate.m */,
 				7495F1FF1936362A0022E8CA /* Main.storyboard */,
@@ -150,6 +151,13 @@
 				7495F2151936362A0022E8CA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7495F266193639BF0022E8CA /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -376,10 +384,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GitUserExample/GitUserExample-Prefix.pch";
 				INFOPLIST_FILE = "GitUserExample/GitUserExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -389,10 +400,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GitUserExample/GitUserExample-Prefix.pch";
 				INFOPLIST_FILE = "GitUserExample/GitUserExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
