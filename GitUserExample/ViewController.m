@@ -20,6 +20,8 @@
 	// Do any additional setup after loading the view, typically from a nib.
     NSLog(@"Laura");
     NSLog(@"Nueva linea");
+    NSLog(@"Nueva linea2");
+    
 }
 
 - (void)didReceiveMemoryWarning
